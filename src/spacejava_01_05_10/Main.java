@@ -46,6 +46,7 @@ public class Main {
        logFile.setFormatter(new SimpleFormatter());
        logger.addHandler(logFile);
        logger.log(Level.INFO, "::::::::::::::::::Init Logging::::::::::::::::::");
+       logger.log(Level.INFO, "HELPHELPHELPHELEHPHLEPLHRELE");
        Random rand = new Random();      
 //        final int PLANET_NAME_SIZE=9;
 //        final int UNIVERSE_ARRAY_SIZE=9;
