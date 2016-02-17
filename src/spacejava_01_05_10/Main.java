@@ -45,7 +45,7 @@ public class Main {
        FileHandler logFile = new FileHandler("output%g.txt",true);
        logFile.setFormatter(new SimpleFormatter());
        logger.addHandler(logFile);
-       logger.log(Level.INFO, "::::::::::::::::::Init Logging::::::::::::::::::");
+       logger.log(Level.INFO, "asdas::::::::::::::::::Init Logging::::::::::::::::::");
        logger.log(Level.INFO, "HELPHELPHELPHELEHPHLEPLHRELE");
        Random rand = new Random();      
 //        final int PLANET_NAME_SIZE=9;
